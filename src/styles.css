@@ -1,0 +1,47 @@
+:root {
+  --color-blue-dark:  #16498C;
+  --color-blue-light: #5F94D9;
+  --color-yellow:     #F2EA79;
+  --color-orange:     #F2845C;
+}
+
+/* Fondo corporativo para el Navbar */
+.bg-sensoritoys-nav {
+  background-color: var(--color-blue-dark) !important;
+}
+
+/* Enlace activo amarillo */
+.nav-link-active {
+  color: var(--color-yellow) !important;
+  font-weight: bold;
+}
+
+/* Enlace inactivo blanco */
+.nav-link-custom {
+  color: #ffffff !important;
+  opacity: 0.9;
+}
+
+.nav-link-custom:hover {
+  color: var(--color-yellow) !important;
+}
+
+/* Botón de Carrito Naranja */
+.btn-cart-orange {
+  background-color: var(--color-orange);
+  color: white;
+  border: none;
+  border-radius: 12px;
+}
+
+/* Icono de Usuario Amarillo */
+.btn-user-yellow {
+  background-color: var(--color-yellow);
+  color: var(--color-blue-dark);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
